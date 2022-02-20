@@ -56,7 +56,7 @@ body {
 .site-logo-text:hover {
     color: #de2e54;
 }
-..site-logo-text:active {
+.site-logo-text:active {
     opacity: 0.8;
 }
 .sitenav-list {
@@ -100,4 +100,31 @@ body {
     color: #de2e54;
     background-color: #fff;
     
+}
+
+/* FOOTER */
+.site-footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #222;
+}
+.site-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-footer-logo-text {
+    color: #fff;
+}
+
+.site-footer-logo-text:active {
+    opacity: 0.8;
+}
+
+.sitenav-footer-link {
+    color: #fff;
+}
+.sitenav-footer-link:active {
+    color: #fff;
+    opacity: 0.8;
 }
